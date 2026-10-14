@@ -16,7 +16,7 @@ the puzzle, and the hint ladder. Solve all six with a team.
    (`ZQM-Computing/zqm-labs`, `lantern-kit/generate_qr_signs.py`) using
    `kit-config.sample.json` as your starting config (update the codes/names
    to match your edited pack).
-4. Place the signs, set the Dial (Cozy / Spooky / After Dark), and play.
+4. Place the signs, set the Dial (Cozy / Spooky / After Dark / Overdrive), and play.
 
 ## The pack
 
