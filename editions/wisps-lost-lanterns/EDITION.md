@@ -7,7 +7,7 @@ Wisp — Dr. Z's escaped first creation — has lost six lanterns across the nei
 ## What's inside the kit
 
 - 6 quest stops, each with a QR sign, a location story, and a puzzle
-- 3 scare levels on the Dial — **Cozy** (family), **Spooky**, **After Dark** — the same stops play differently per level
+- 4 Dial levels — **Cozy** (family), **Spooky**, **After Dark**, **Overdrive** (office/competitive) — the same stops play differently per level
 - Hint ladder at every stop (3 hints; the 3rd is the "Ranger assist")
 - Printable Letter-size QR signs + start poster (via the kit generator)
 - Organizer guide: placement map, answer key, tiebreakers, scoring
