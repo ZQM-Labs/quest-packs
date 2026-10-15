@@ -10,9 +10,6 @@ the puzzle, and the hint ladder. Solve all six with a team.
 
 **Option B — run it for real (recommended):** you're the Lab Assistant.
 
-
-
-
 1. Pick 6 waypoints in your space (a yard, a park, a block).
 2. In `wisp-sample.json`, replace each stop's `lat`/`lng` with your waypoint
    coordinates and tweak the story/puzzle text to match what players will see.
