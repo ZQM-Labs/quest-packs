@@ -9,6 +9,10 @@ neighborhood in about 30 minutes — no purchase, no signup.
 the puzzle, and the hint ladder. Solve all six with a team.
 
 **Option B — run it for real (recommended):** you're the Lab Assistant.
+
+
+
+
 1. Pick 6 waypoints in your space (a yard, a park, a block).
 2. In `wisp-sample.json`, replace each stop's `lat`/`lng` with your waypoint
    coordinates and tweak the story/puzzle text to match what players will see.
@@ -28,6 +32,6 @@ exactly 6 stops, unique answers, 3-hint ladders, scare-level variants.
 
 The full Halloween edition — *Wisp's Lost Lanterns*, Oct 30–Nov 1 — is six
 brand-new stops with the same format, plus the organizer guide and answer key.
-https://zqmlabs.com · zqmcomputing@gmail.com
+<https://zqmlabs.com> · <zqmcomputing@gmail.com>
 
 *Play more. Plan less.*
