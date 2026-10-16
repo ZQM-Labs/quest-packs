@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD033 MD012 -->
+
 # Quest Packs — ZQM Labs
 
 <!-- ZQM-START -->
@@ -50,6 +52,32 @@ The format spec, authoring guide, and a validator live in
 Organizers: the [Lab Assistant's
 toolkit](https://github.com/ZQM-Labs/organizer-toolkit) has setup
 checklists, print specs, and day-of troubleshooting.
+
+## Community contribution workflow
+
+The long-term direction is a shared Halloween game world shaped by the
+communities that play it. Contributions should be reviewable, tested, and
+credited with permission—not published automatically.
+
+1. **Propose an idea.** Open an issue describing the intended audience, venue,
+   story theme, and any local context.
+2. **Build from the public format.** Follow the [quest-authoring
+   specification](https://github.com/ZQM-Labs/quest-authoring) and validate
+   the pack before submitting it.
+3. **Check safety and inclusion.** Avoid stereotypes, unsafe routes, private
+   locations without permission, and puzzles that require unnecessary personal
+   data. Document any venue or language assumptions.
+4. **Playtest.** Use the [playtest
+   protocol](https://github.com/ZQM-Labs/playtests); record reproducible
+   findings and remove personal information.
+5. **Review and release.** Maintainers review content, validation results,
+   rights to submitted assets, and any operational requirements before merging
+   or releasing a pack.
+
+Public sample packs and release metadata belong here. Private paid-edition
+answer keys and customer materials must not be added to public commits. A
+community proposal is not a promise that the edition is supported or
+scheduled.
 
 ## More from ZQM Labs
 
