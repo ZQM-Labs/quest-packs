@@ -106,3 +106,16 @@ Questions? <zqmcomputing@gmail.com> · <https://zqmlabs.com>
   <a href="https://github.com/ZQM-Computing">ZQM Computing</a>
 </p>
 <!-- ZQM-FOOTER-END -->
+
+## Release artifact contract
+
+A GitHub Release is the versioned distribution record for an edition. Before publishing or updating a release, verify and record:
+
+- The release tag points to the reviewed commit and the attached/public JSON is the exact tested artifact.
+- The pack passes the [quest-authoring validator](https://github.com/ZQM-Labs/quest-authoring) and loads in the target [player](https://github.com/ZQM-Labs/lantern-player) version.
+- Release notes identify the edition, pack schema/version where applicable, intended play window, known limitations, and any required player version.
+- The organizer-facing instructions match the released pack and print assets.
+- The [playtest record](https://github.com/ZQM-Labs/playtests) identifies the same pack and player versions.
+- Public artifacts contain no paid answer keys, private customer materials, credentials, participant data, or assets without documented rights.
+
+Do not overwrite or silently replace a published release artifact. For a material correction, publish a new version and explain the compatibility or safety impact in the release notes.
