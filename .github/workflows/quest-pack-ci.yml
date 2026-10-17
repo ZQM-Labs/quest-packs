@@ -1,0 +1,28 @@
+name: Quest Pack CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-packs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check out canonical quest validator
+        uses: actions/checkout@v4
+        with:
+          repository: ZQM-Labs/quest-authoring
+          path: quest-authoring
+      - name: Validate sample pack
+        run: python quest-authoring/validator/validate_pack.py sample-quest/wisp-sample.json
+      - name: Validate sample kit configuration JSON
+        run: python -m json.tool sample-quest/kit-config.sample.json > /dev/null
