@@ -1,0 +1,276 @@
+{
+  "title": "Wisp's Spring Festival",
+  "kit": "SPRING",
+  "stops": [
+    {
+      "id": 1,
+      "name": "The Welcome Blossom",
+      "lat": 29.0867,
+      "lng": -81.0533,
+      "radius": 30,
+      "code": "SPRING-1",
+      "story": {
+        "cozy": "You arrive at the festival entrance, where paper blossoms hang from a flowering dogwood tree. A sign reads: 'Wisp's Spring Festival \u2014 Where Every Petal Counts.' But the welcome wreath is missing its centerpiece. Wisp needs your help to find everything before the festival opens.",
+        "spooky": "The dogwood tree's blossoms have faded to an unnatural gray. A chill wind rustles the paper decorations. The festival entrance feels abandoned \u2014 Wisp's welcome wreath is gone, and something about the silence feels... wrong.",
+        "afterdark": "The tree stands bare, blossoms scattered like pale petals on dark ground. The sign creaks in the wind. Wisp's festival shouldn't feel like this. Something took the wreath \u2014 and it left the tree dying.",
+        "overdrive": "The festival entrance is a graveyard of decorations. The tree is gray, the sign is faded, and the wreath is gone. Wisp needs the wreath back in 30 minutes or the festival is canceled. No pressure."
+      },
+      "puzzle": {
+        "cozy": {
+          "q": "The wreath's centerpiece is a colorful arc that appears after rain. What is it?",
+          "a": "rainbow",
+          "type": "text"
+        },
+        "spooky": {
+          "q": "The gray petals whisper a riddle: 'I appear after the storm, a bridge of light in seven colors. What am I?'",
+          "a": "rainbow",
+          "type": "text"
+        },
+        "afterdark": {
+          "q": "The dead tree's roots spell out: 'I am the sign that the storm has passed, a curved promise in the sky. What am I?'",
+          "a": "rainbow",
+          "type": "text"
+        },
+        "overdrive": {
+          "q": "The tree is dying and the wreath is gone. The riddle carved into the bark: 'Seven colors, curved bridge, appears after rain. Name me in 5 letters or less \u2014 I am the _____.'",
+          "a": "rainbow",
+          "type": "text"
+        }
+      },
+      "fallback": {
+        "q": "What colorful arc appears after rain?",
+        "a": "rainbow"
+      },
+      "hints": [
+        "Look at the sign \u2014 it mentions petals and colors.",
+        "The centerpiece of a spring wreath is often weather-related.",
+        "Ranger assist: It's a rainbow \u2014 the colorful arc after rain."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "The Singing Stream",
+      "lat": 29.0875,
+      "lng": -81.0545,
+      "radius": 30,
+      "code": "SPRING-2",
+      "story": {
+        "cozy": "A small stream burbles past the festival grounds. Smooth stones line its banks, and one of them is painted like a cupcake \u2014 Wisp's favorite. The painted stone is missing. Without it, the stream's 'singing stone' tradition can't begin.",
+        "spooky": "The stream's water runs dark and slow. The stones along the bank are bare \u2014 no paint, no cupcake stone. The water sounds like humming, but the melody is off-key. Something took the singing stone.",
+        "afterdark": "The stream is silent. No burble, no hum, no water sounds at all. The stones are bare and gray. The singing stone isn't just missing \u2014 the stream itself seems muted.",
+        "overdrive": "The stream is a puddle. The stones are scattered. The cupcake stone is gone and the festival's opening ceremony starts in 20 minutes. Find it. Now."
+      },
+      "puzzle": {
+        "cozy": {
+          "q": "The singing stone is painted like Wisp's favorite treat \u2014 a swirl of frosting on a small round base. What is it?",
+          "a": "cupcake",
+          "type": "text"
+        },
+        "spooky": {
+          "q": "The humming stream whispers: 'Sweet, small, with a swirl on top \u2014 I am baked but not bread. What am I?'",
+          "a": "cupcake",
+          "type": "text"
+        },
+        "afterdark": {
+          "q": "Carved into the largest stone: 'I am the treat that makes Wisp smile \u2014 frosting swirled on a tiny cake. What am I?'",
+          "a": "cupcake",
+          "type": "text"
+        },
+        "overdrive": {
+          "q": "The stone arrangement spells: B_A_E_D but reversed. The treat Wisp loves is a _ _ _ _ _ _ _ _ (6 letters). Hint: frosting on top.",
+          "a": "cupcake",
+          "type": "text"
+        }
+      },
+      "fallback": {
+        "q": "What treat has frosting swirled on top?",
+        "a": "cupcake"
+      },
+      "hints": [
+        "Wisp loves baked goods with swirls.",
+        "The stream is 'singing' \u2014 think about what makes a sweet sound.",
+        "Ranger assist: It's a cupcake \u2014 frosting swirled on a tiny cake."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Butterfly Garden",
+      "lat": 29.0882,
+      "lng": -81.0558,
+      "radius": 30,
+      "code": "SPRING-3",
+      "story": {
+        "cozy": "A small garden blooms with wildflowers \u2014 milkweed, coneflower, and lantana. Monarch butterflies drift between the blooms. But the garden's centerpiece \u2014 a wooden butterfly sculpture painted in bright orange and black \u2014 is missing. The real butterflies seem confused without it.",
+        "spooky": "The wildflowers are blooming, but there are no butterflies. The garden is silent \u2014 no wings, no flutter. The wooden sculpture's empty pedestal stands in the center. Something scared the butterflies away.",
+        "afterdark": "The garden is overgrown and dark. The wildflowers have closed their petals. The pedestal is covered in claw marks \u2014 something large took the butterfly sculpture. The real butterflies are gone.",
+        "overdrive": "The garden is trampled. The sculpture pedestal is shattered. The festival's butterfly release ceremony starts in 15 minutes and there's no centerpiece. The butterflies are circling overhead, waiting."
+      },
+      "puzzle": {
+        "cozy": {
+          "q": "The missing sculpture depicts an insect that migrates thousands of miles and has orange-and-black wings. What is it?",
+          "a": "monarch",
+          "type": "text"
+        },
+        "spooky": {
+          "q": "The pedestal inscription reads: 'I fly thousands of miles, orange and black, a traveler of the sky. What am I?'",
+          "a": "monarch",
+          "type": "text"
+        },
+        "afterdark": {
+          "q": "The claw marks spell out: 'The orange traveler, the sky monarch, the winged migrant. I am the _ _ _ _ _ _ (6 letters).'",
+          "a": "monarch",
+          "type": "text"
+        },
+        "overdrive": {
+          "q": "The butterflies are circling in a pattern: O-R-A-N-G-E. The sculpture is a _ _ _ _ _ _ butterfly (6 letters, orange and black).",
+          "a": "monarch",
+          "type": "text"
+        }
+      },
+      "fallback": {
+        "q": "What orange-and-black butterfly migrates thousands of miles?",
+        "a": "monarch"
+      },
+      "hints": [
+        "The garden has milkweed \u2014 a plant butterflies love.",
+        "Think about migration and orange wings.",
+        "Ranger assist: It's a monarch \u2014 the orange-and-black migrating butterfly."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Puddle Portal",
+      "lat": 29.089,
+      "lng": -81.057,
+      "radius": 30,
+      "code": "SPRING-4",
+      "story": {
+        "cozy": "After yesterday's rain, a large puddle has formed near the festival's rain garden. A colorful umbrella \u2014 Wisp's festival umbrella \u2014 is missing from its usual spot by the puddle. The umbrella is important for the 'rain dance' ceremony.",
+        "spooky": "The puddle is larger than it should be \u2014 far too big for yesterday's light rain. The umbrella stand is empty. The puddle reflects the sky, but the reflection shows a storm that isn't there.",
+        "afterdark": "The puddle is black and still. No reflection at all. The umbrella stand is tipped over. The puddle seems to absorb light rather than reflect it. The umbrella is gone.",
+        "overdrive": "The puddle has doubled in size. The umbrella stand is shattered. The rain dance ceremony starts in 10 minutes and there's no umbrella. The puddle ripples \u2014 something moved beneath the surface."
+      },
+      "puzzle": {
+        "cozy": {
+          "q": "Wisp's missing umbrella has panels of red, orange, yellow, green, blue, and violet. What is it called?",
+          "a": "rainbow umbrella",
+          "type": "text"
+        },
+        "spooky": {
+          "q": "The puddle's reflection whispers: 'I cover you when it rains, I have six colors, I open like a flower. What am I?'",
+          "a": "rainbow umbrella",
+          "type": "text"
+        },
+        "afterdark": {
+          "q": "The tipped stand has a label: 'Rainbow panels, festival edition.' The umbrella has six colors. What is it?",
+          "a": "rainbow umbrella",
+          "type": "text"
+        },
+        "overdrive": {
+          "q": "The puddle ripples spell: _ _ _ _ _ _ _ _ _ _ (11 letters). Six colors, rain shield, festival edition.",
+          "a": "rainbow umbrella",
+          "type": "text"
+        }
+      },
+      "fallback": {
+        "q": "What has six colors and shields you from rain?",
+        "a": "rainbow umbrella"
+      },
+      "hints": [
+        "The puddle is near a rain garden \u2014 think about rain.",
+        "Six colors, opens and closes.",
+        "Ranger assist: It's a rainbow umbrella \u2014 six colors, rain shield."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "The Nest Builder's Oak",
+      "lat": 29.0898,
+      "lng": -81.0583,
+      "radius": 30,
+      "code": "SPRING-5",
+      "story": {
+        "cozy": "A large oak tree stands at the festival's edge. In its branches, a carefully woven nest holds painted eggs \u2014 a festival tradition. But the nest is missing its 'guardian' \u2014 a small wooden bird that Wisp carved. Without it, the nest feels unprotected.",
+        "spooky": "The oak's branches are bare \u2014 no leaves, no nest, no eggs. The wooden bird is gone. The tree's bark has scratch marks, as if something climbed up and took everything. The nest is just... gone.",
+        "afterdark": "The oak is dead. No leaves, no nest, no eggs, no bird. The scratch marks go all the way up the trunk. Whatever took the nest wasn't small. The festival's egg hunt can't happen without the nest.",
+        "overdrive": "The oak is a stump. The nest is kindling. The bird is kindling. The eggs are scattered. The egg hunt starts in 5 minutes and there's no nest. Wisp is crying."
+      },
+      "puzzle": {
+        "cozy": {
+          "q": "Wisp's wooden guardian bird has a red breast and is known for singing in spring. What bird is it?",
+          "a": "robin",
+          "type": "text"
+        },
+        "spooky": {
+          "q": "The scratch marks spell: 'Red breast, spring song, I guard the nest. I am the _ _ _ _ _ (5 letters).'",
+          "a": "robin",
+          "type": "text"
+        },
+        "afterdark": {
+          "q": "The dead tree's rings tell a story: 'The bird with the red breast, the herald of spring, the nest guardian. What am I?'",
+          "a": "robin",
+          "type": "text"
+        },
+        "overdrive": {
+          "q": "The stump's cross-section has 5 letters carved: R_O_I_. The bird is a _ _ _ _ _ (red breast, spring song).",
+          "a": "robin",
+          "type": "text"
+        }
+      },
+      "fallback": {
+        "q": "What bird has a red breast and sings in spring?",
+        "a": "robin"
+      },
+      "hints": [
+        "The nest is in a tree \u2014 think about tree-nesting birds.",
+        "Red breast, sings in spring, herald of the season.",
+        "Ranger assist: It's a robin \u2014 the red-breasted spring bird."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "The Festival Ground",
+      "lat": 29.0905,
+      "lng": -81.0595,
+      "radius": 30,
+      "code": "SPRING-6",
+      "story": {
+        "cozy": "The festival's main ground is ready \u2014 tables, chairs, a small stage, and a banner that reads 'Wisp's Spring Festival.' But the banner's centerpiece is missing: a wooden sun that Wisp painted gold. Without it, the festival has no symbol.",
+        "spooky": "The festival ground is empty. No tables, no chairs, no stage. The banner hangs tattered and bare. The golden sun is gone. The festival ground feels like a ghost town.",
+        "afterdark": "The festival ground is dark. The banner is shredded. The stage is splintered. The golden sun is gone. Whatever took it wanted the festival to fail. The ground is covered in gray frost \u2014 in spring.",
+        "overdrive": "The festival ground is a disaster zone. The banner is ash. The stage is splinters. The golden sun is gone. The festival starts NOW and there's no symbol. Wisp is on the verge of canceling everything."
+      },
+      "puzzle": {
+        "cozy": {
+          "q": "Wisp's missing centerpiece is a golden wooden \u2014 it rises every morning and sets every night. What is it?",
+          "a": "sun",
+          "type": "text"
+        },
+        "spooky": {
+          "q": "The tattered banner whispers: 'Golden, wooden, rises and sets, Wisp's symbol of the festival. I am the _ _ _ (3 letters).'",
+          "a": "sun",
+          "type": "text"
+        },
+        "afterdark": {
+          "q": "The gray frost spells: 'The golden circle in the sky, the symbol of spring, the festival's heart. What am I?'",
+          "a": "sun",
+          "type": "text"
+        },
+        "overdrive": {
+          "q": "The ash spells: S_N (3 letters). Golden, wooden, rises and sets. The festival's symbol.",
+          "a": "sun",
+          "type": "text"
+        }
+      },
+      "fallback": {
+        "q": "What golden wooden circle rises and sets?",
+        "a": "sun"
+      },
+      "hints": [
+        "The banner is the festival's symbol \u2014 think about what represents spring.",
+        "Golden, rises and sets, wooden.",
+        "Ranger assist: It's the sun \u2014 the golden circle in the sky."
+      ]
+    }
+  ]
+}
