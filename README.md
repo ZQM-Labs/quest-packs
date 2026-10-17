@@ -36,6 +36,7 @@ keys.
 | Edition | Window | Status |
 |---|---|---|
 | *Wisp's Lost Lanterns* (Halloween) | Oct 30–Nov 1, 2026 | Pilot |
+| *Wisp's Spring Festival* (Spring) | Mar 20–Apr 5, 2027 | Pilot |
 | *Sample: Wisp's Warm-Up* | Anytime | **Free** — `sample-quest/` |
 
 New here? Start with the sample quest — it plays in any
