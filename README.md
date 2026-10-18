@@ -10,8 +10,6 @@
 </p>
 <!-- ZQM-END -->
 
-
-
 Versioned quest packs for **ZQM Labs — Z's Quests & Mischief** location games.
 *Games, gear & a little mischief.*
 
@@ -20,7 +18,22 @@ Versioned quest packs for **ZQM Labs — Z's Quests & Mischief** location games.
 | Path | What it is |
 |---|---|
 | `sample-quest/` | **Free sample edition** — a 6-stop mini quest. |
+| `sample-quest/example-quest.yaml` | Example YAML config for the quest pack generator. |
 | `editions/` | The edition catalog — one folder per edition. |
+
+## Generate your own quest pack
+
+Use the [quest pack generator](https://github.com/ZQM-Labs/quest-authoring/blob/main/validator/gen_quest_pack.py) from the quest-authoring repo:
+
+```bash
+# Clone quest-authoring
+git clone https://github.com/ZQM-Labs/quest-authoring.git
+cd quest-authoring
+
+# Generate from the example config
+python validator/gen_quest_pack.py /path/to/example-quest.yaml
+# Output: dist/missing-lanterns/index.html + manifest.json
+```
 
 ## How editions ship
 
@@ -45,7 +58,7 @@ neighborhood in about 30 minutes.
 ## Pack format
 
 Quest packs are JSON validated by the player (`validatePack`).
-The format spec, authoring guide, and a validator live in
+The format spec, authoring guide, validator, and generator live in
 [ZQM-Labs/quest-authoring](https://github.com/ZQM-Labs/quest-authoring).
 
 ## Running a game
@@ -83,7 +96,7 @@ scheduled.
 ## More from ZQM Labs
 
 - [organizer-toolkit][otk] — setup checklists, print specs, FAQ
-- [quest-authoring][qa] — quest-pack spec, guide, and validator
+- [quest-authoring][qa] — quest-pack spec, guide, validator, generator
 - [playtests][pt] — playtest protocol and results
 - [zqmlabs-site][site] — the public website
 
@@ -126,4 +139,4 @@ Do not overwrite or silently replace a published release artifact. For a materia
 
 The edition table is a catalog/status summary, not proof that a date-specific event ran or that customers can place orders. Wisp's Lost Lanterns release, field-readiness, and checkout status must be confirmed from dated release and test evidence before public pages describe it as available.
 
-For Wisp's Lost Lanterns, verify the exact GitHub Release/tag, tested pack artifact, compatible player version, playtest/field-validation record, and organizer materials. Separately verify the end-to-end checkout/payment/confirmation/fulfillment path. Keep these as separate gates: a published pack is not proof of working checkout, and working checkout is not proof of field approval. Until evidence is linked, label unresolved states **unverified** rather than assuming the scheduled window or the existing “Pilot” label proves completion.
+For Wisp's Lost Lanterns, verify the exact GitHub Release/tag, tested pack artifact, compatible player version, playtest/field-validation record, and organizer materials. Separately verify the end-to-end checkout/payment/confirmation/fulfillment path. Keep these as separate gates: a published pack is not proof of working checkout, and working checkout is not proof of field approval. Until evidence is linked, label unresolved states **unverified** rather than assuming the scheduled window or the existing "Pilot" label proves completion.
