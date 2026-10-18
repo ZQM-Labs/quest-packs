@@ -1,0 +1,40 @@
+# Example ZQM Labs quest pack config
+# Usage: python scripts/gen_quest_pack.py example-quest.yaml
+
+title: "The Missing Lanterns"
+description: "A neighborhood scavenger hunt to find the missing lanterns"
+players: "2-6"
+duration: "30-45 min"
+ages: "8+"
+slug: "missing-lanterns"
+
+stops:
+  - name: "The Old Oak"
+    location: "Under the big oak tree on Main Street"
+    clue: "I'm tall and old, with branches wide. Find me where the town's pride resides."
+    answer: "oak tree"
+  
+  - name: "The Library Steps"
+    location: "Public library front steps"
+    clue: "Knowledge lives here, free to all. Count the steps, then make your call."
+    answer: "library"
+  
+  - name: "The Fountain"
+    location: "Town square fountain"
+    clue: "Water dances here day and night. Toss a coin and hold on tight."
+    answer: "fountain"
+  
+  - name: "The Clock Tower"
+    location: "Historic clock tower"
+    clue: "I've watched this town for a hundred years. Tick tock, tick tock — time appears."
+    answer: "clock tower"
+  
+  - name: "The Bridge"
+    location: "Old stone bridge over the creek"
+    clue: "I connect two sides with stone and arch. Cross me to continue your march."
+    answer: "bridge"
+  
+  - name: "The Final Lantern"
+    location: "Town hall entrance"
+    clue: "You've found them all, now see the light. The lanterns glow bright tonight."
+    answer: "town hall"
