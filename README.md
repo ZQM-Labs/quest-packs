@@ -140,3 +140,15 @@ Do not overwrite or silently replace a published release artifact. For a materia
 The edition table is a catalog/status summary, not proof that a date-specific event ran or that customers can place orders. Wisp's Lost Lanterns release, field-readiness, and checkout status must be confirmed from dated release and test evidence before public pages describe it as available.
 
 For Wisp's Lost Lanterns, verify the exact GitHub Release/tag, tested pack artifact, compatible player version, playtest/field-validation record, and organizer materials. Separately verify the end-to-end checkout/payment/confirmation/fulfillment path. Keep these as separate gates: a published pack is not proof of working checkout, and working checkout is not proof of field approval. Until evidence is linked, label unresolved states **unverified** rather than assuming the scheduled window or the existing "Pilot" label proves completion.
+
+## Installation
+
+```bash
+pip install -e .
+```
+
+Requires Python 3.11+.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
