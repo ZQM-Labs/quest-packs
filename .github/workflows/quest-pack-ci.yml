@@ -33,7 +33,7 @@ jobs:
           set -euo pipefail
           shopt -s nullglob
           packs=(editions/*/*.json)
-          if (("${#packs[@]}" == 0)); then
+          if (('${#packs[@]} == 0)); then
             echo "No public edition JSON packs are committed; private edition artifacts are intentionally not required here."
             exit 0
           fi
