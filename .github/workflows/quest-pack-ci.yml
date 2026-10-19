@@ -17,12 +17,28 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Check out canonical quest validator
+      - name: Check out canonical quest validator at a reviewed immutable revision
         uses: actions/checkout@v4
         with:
           repository: ZQM-Labs/quest-authoring
+          ref: 78c33de3e9c5dc4eee2de6baea2fd3968a14e216
           path: quest-authoring
       - name: Validate sample pack
         run: python quest-authoring/validator/validate_pack.py sample-quest/wisp-sample.json
       - name: Validate sample kit configuration JSON
         run: python -m json.tool sample-quest/kit-config.sample.json > /dev/null
+      - name: Validate every publicly committed edition JSON pack
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          packs=(editions/*/*.json)
+          if (("${#packs[@]}" == 0)); then
+            echo "No public edition JSON packs are committed; private edition artifacts are intentionally not required here."
+            exit 0
+          fi
+          for pack in "${packs[@]}"; do
+            echo "::group::Validate ${pack}"
+            python quest-authoring/validator/validate_pack.py "${pack}"
+            echo "::endgroup::"
+          done
