@@ -7,6 +7,10 @@ singing stone tradition. But six festival items have gone missing, and the
 trail goes from sunny to properly strange. A non-Halloween edition for
 spring breaks, Earth Day events, and family-friendly outdoor festivals.
 
+## Distribution boundary
+
+This is public catalog documentation only. The full playable pack, answer key, exact route coordinates, QR/sign assets, and organizer materials are delivered privately to authorized organizers and must not be committed to this public repository.
+
 ## What's inside the kit
 
 - 6 quest stops, each with a QR sign, a location story, and a puzzle
@@ -37,7 +41,7 @@ spring breaks, Earth Day events, and family-friendly outdoor festivals.
 
 ## Getting the kit
 
-Full kits are delivered privately to organizers.
+Full kits are delivered privately to organizers; this public catalog page is not a playable pack or proof of current availability.
 Community tier $199 · Office tier $349–499.
 Start with the free sample: [`sample-quest/`](../../sample-quest/) ·
 or play the demo at <https://zqmlabs.com/games/hunt-for-wisps/>
