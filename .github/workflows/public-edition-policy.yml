@@ -1,0 +1,47 @@
+name: Public edition content policy
+
+on:
+  pull_request:
+    branches: [main, master]
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: read
+
+jobs:
+  public-edition-allowlist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require explicit approval for public edition JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          manifest="PUBLIC_EDITION_PACKS.txt"
+          test -f "$manifest" || { echo "Missing public edition allowlist: $manifest" >&2; exit 1; }
+
+          declare -A approved=()
+          while IFS= read -r entry || [[ -n "$entry" ]]; do
+            entry="${entry%%#*}"
+            entry="$(printf '%s' "$entry" | xargs)"
+            [[ -z "$entry" ]] && continue
+            case "$entry" in
+              editions/*/*.json) ;;
+              *) echo "Invalid allowlist path: $entry" >&2; exit 1 ;;
+            esac
+            test -f "$entry" || { echo "Allowlisted pack does not exist: $entry" >&2; exit 1; }
+            [[ -z "${approved[$entry]+x}" ]] || { echo "Duplicate allowlist entry: $entry" >&2; exit 1; }
+            approved["$entry"]=1
+          done < "$manifest"
+
+          mapfile -t packs < <(find editions -type f -name '*.json' -print 2>/dev/null | sort)
+          for pack in "${packs[@]}"; do
+            [[ -n "${approved[$pack]+x}" ]] || {
+              echo "Unapproved public edition JSON: $pack" >&2
+              echo "Review its publication status, then explicitly add the path to $manifest only if public distribution is approved." >&2
+              exit 1
+            }
+          done
+
+          echo "Public edition policy passed: ${#packs[@]} edition JSON file(s), all explicitly allowlisted."

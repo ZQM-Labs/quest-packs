@@ -1,0 +1,3 @@
+# Exact paths of edition JSON packs approved for public distribution.
+# One repository-relative path per line. Comments begin with #.
+# Do not add paid answer keys, exact private routes, customer materials, or organizer-only assets.
