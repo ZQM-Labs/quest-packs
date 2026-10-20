@@ -3,11 +3,13 @@
 # Quest Packs — ZQM Labs
 
 <!-- ZQM-START -->
+<!-- markdownlint-disable MD033 -->
 <p align="center">
   <strong>ZQM Labs — Z's Quests & Mischief</strong><br>
   <a href="https://zqmlabs.com">zqmlabs.com</a> •
   <a href="https://github.com/ZQM-Labs">GitHub</a>
 </p>
+<!-- markdownlint-enable MD033 -->
 <!-- ZQM-END -->
 
 Versioned quest packs for **ZQM Labs — Z's Quests & Mischief** location games.
@@ -109,8 +111,8 @@ Questions? <zqmcomputing@gmail.com> · <https://zqmlabs.com>
 
 *Play more. Plan less.*
 
-
 <!-- ZQM-FOOTER-START -->
+<!-- markdownlint-disable MD033 -->
 ---
 
 <p align="center">
@@ -119,6 +121,7 @@ Questions? <zqmcomputing@gmail.com> · <https://zqmlabs.com>
   <a href="https://github.com/ZQM-Labs">ZQM Labs</a> •
   <a href="https://github.com/ZQM-Computing">ZQM Computing</a>
 </p>
+<!-- markdownlint-enable MD033 -->
 <!-- ZQM-FOOTER-END -->
 
 ## Release artifact contract
@@ -133,7 +136,6 @@ A GitHub Release is the versioned distribution record for an edition. Before pub
 - Public artifacts contain no paid answer keys, private customer materials, credentials, participant data, or assets without documented rights.
 
 Do not overwrite or silently replace a published release artifact. For a material correction, publish a new version and explain the compatibility or safety impact in the release notes.
-
 
 ## Current availability and checkout status
 
