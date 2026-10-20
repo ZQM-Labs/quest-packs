@@ -15,6 +15,14 @@
 Versioned quest packs for **ZQM Labs — Z's Quests & Mischief** location games.
 *Games, gear & a little mischief.*
 
+## Repository role and status
+
+**Status:** Active, public. Edition catalog and distribution point for ZQM Labs quest packs.
+
+**What this repository is:** The versioned catalog of quest-pack editions (`editions/`), the free 6-stop sample quest *Wisp's Warm-Up* (`sample-quest/`), and the example configuration for the quest-authoring generator.
+
+**What it contributes:** This is where editions ship: each edition is published as a GitHub Release from this repo, and the sample quest is the public, playable demonstration of the pack format. Paid-edition answer keys and print sets are delivered privately and are never stored here. The pack format, validator, and generator live in quest-authoring, which this repo's documentation cross-references.
+
 ## What lives here
 
 | Path | What it is |
