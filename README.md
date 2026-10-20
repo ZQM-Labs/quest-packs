@@ -165,3 +165,9 @@ To validate locally:
 # Run documentation checks
 python scripts/check_docs.py
 ```
+
+## Usage
+
+Pick an edition from [The editions](#the-editions), generate or download
+its pack, and load it into the quest player to run a game. The free
+sample quest is the quickest way to see the pack format in action.
