@@ -126,7 +126,7 @@ Questions? <zqmcomputing@gmail.com> · <https://zqmlabs.com>
 A GitHub Release is the versioned distribution record for an edition. Before publishing or updating a release, verify and record:
 
 - The release tag points to the reviewed commit and the attached/public JSON is the exact tested artifact.
-- The pack passes the [quest-authoring validator](https://github.com/ZQM-Labs/quest-authoring) and loads in the target [player](https://github.com/ZQM-Labs/lantern-player) version.
+- The pack passes the [quest-authoring validator](https://github.com/ZQM-Labs/quest-authoring) and loads in the target [player](https://github.com/ZQM-Labs/quest-player) version.
 - Release notes identify the edition, pack schema/version where applicable, intended play window, known limitations, and any required player version.
 - The organizer-facing instructions match the released pack and print assets.
 - The [playtest record](https://github.com/ZQM-Labs/playtests) identifies the same pack and player versions.
