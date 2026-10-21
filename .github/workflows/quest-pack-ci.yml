@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ZQM-Labs/quest-authoring
-          ref: d874f7b4001554c51d364d0ee15da3dfb144126a
+          ref: v1.0.0
           path: quest-authoring
       - name: Validate sample pack
         run: python quest-authoring/validator/validate_pack.py sample-quest/wisp-sample.json
