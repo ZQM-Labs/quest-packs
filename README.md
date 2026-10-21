@@ -166,6 +166,17 @@ To validate locally:
 python scripts/check_docs.py
 ```
 
+## Installation
+
+Clone the repository — the packs are plain JSON and need no build step.
+The one dependency (PyYAML) is used by the pack validation tooling:
+
+```bash
+git clone https://github.com/ZQM-Labs/quest-packs.git
+cd quest-packs
+pip install -r requirements.txt
+```
+
 ## Usage
 
 Pick an edition from [The editions](#the-editions), generate or download
