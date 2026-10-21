@@ -13,12 +13,12 @@ jobs:
   validate-packs:
     runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Check out canonical quest validator at a reviewed immutable revision
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: ZQM-Labs/quest-authoring
           ref: v1.0.0
