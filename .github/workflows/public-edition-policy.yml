@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   public-edition-allowlist:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Require explicit approval for public edition JSON
