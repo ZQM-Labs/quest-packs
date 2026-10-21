@@ -1,0 +1,1 @@
+{"description":"Ready-to-play quest packs for ZQM Labs. package.json exists only so CI's node gate runs the content tests in tests/.","name":"quest-packs","private":true,"scripts":{"test":"node --test tests/test-packs.cjs"},"version":"1.0.0"}

@@ -13,10 +13,12 @@ the puzzle, and the hint ladder. Solve all six with a team.
 1. Pick 6 waypoints in your space (a yard, a park, a block).
 2. In `wisp-sample.json`, replace each stop's `lat`/`lng` with your waypoint
    coordinates and tweak the story/puzzle text to match what players will see.
-3. Generate printable QR signs with the kit generator
-   (`ZQM-Computing/zqm-labs`, `lantern-kit/generate_qr_signs.py`) using
-   `kit-config.sample.json` as your starting config (update the codes/names
-   to match your edited pack).
+3. Generate printable QR signs with the QR sign generator in the
+   organizer toolkit
+   ([`organizer-toolkit/qr-kit/`](https://github.com/ZQM-Labs/organizer-toolkit/tree/main/qr-kit),
+   guide: [`guides/qr-generator.md`](https://github.com/ZQM-Labs/organizer-toolkit/blob/main/guides/qr-generator.md))
+   using `kit-config.sample.json` as your starting config (update the
+   codes/names to match your edited pack).
 4. Place the signs, set the Dial (Cozy / Spooky / After Dark / Overdrive), and play.
 
 ## The pack
