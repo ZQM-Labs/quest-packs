@@ -12,8 +12,7 @@
 <!-- markdownlint-enable MD033 -->
 <!-- ZQM-END -->
 
-Versioned quest packs for **ZQM Labs — Z's Quests & Mischief** location games.
-*Games, gear & a little mischief.*
+A versioned **quest-pack catalog for ZQM Labs location-based scavenger-hunt games**, including playable sample content and release editions. Packs define the stops, puzzles, hints, and story variants consumed by the ZQM Labs quest player; the public sample demonstrates the format, while private paid-edition answer keys and print sets are not stored here. Use this repository to explore, validate, and version game content—not as evidence that every edition is currently bookable.
 
 ## Repository role and status
 
