@@ -35,7 +35,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - id: detect
         run: |
-          if [ -f pyproject.toml ] || [ -f pytest.ini ] || [ -f requirements.txt ] || { [ -d tests ] && find tests -type f \( -name "test_*.py" -o -name "*_test.py" \) -print -quit | grep -q .; }; then
+          if [ -f pyproject.toml ] || [ -f pytest.ini ] || { [ -d tests ] && find tests -type f \( -name "test_*.py" -o -name "*_test.py" \) -print -quit | grep -q .; }; then
             echo "python=true" >> "$GITHUB_OUTPUT"
           else
             echo "python=false" >> "$GITHUB_OUTPUT"
