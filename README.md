@@ -22,6 +22,10 @@ A versioned **quest-pack catalog for ZQM Labs location-based scavenger-hunt game
 
 **What it contributes:** This is where editions ship: each edition is published as a GitHub Release from this repo, and the sample quest is the public, playable demonstration of the pack format. Paid-edition answer keys and print sets are delivered privately and are never stored here. The pack format, validator, and generator live in quest-authoring, which this repo's documentation cross-references.
 
+## Future host-oriented formats (concepts only)
+
+The [evergreen six-stop quest concepts](docs/evergreen-civic-quest-concepts.md) outline civic heritage, neighborhood, workplace and supervised education story patterns. They are **not released packs, validated local routes, or currently orderable white-label products**. Any new edition must pass the existing pack validator, target player acceptance, lawful route review, playtests, and separate commercial release gates.
+
 ## What lives here
 
 | Path | What it is |
