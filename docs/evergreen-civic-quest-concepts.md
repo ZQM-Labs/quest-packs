@@ -31,6 +31,10 @@ Audience: supervised student or visitor program. An interpretive six-stop lesson
 
 See the [organizer civic pilot packet](https://github.com/ZQM-Labs/organizer-toolkit/blob/main/guides/civic-tourism-pilot.md) and [safe group challenge procedures](https://github.com/ZQM-Labs/organizer-toolkit/blob/main/guides/asynchronous-team-challenges.md).
 
+The linked organizer guides are now maintained as public planning documents;
+their existence does not mean that any civic kit, venue, or custom project
+has passed field testing or is available for immediate purchase.
+
 ## Example inquiry categories, not pricing or availability
 
 - Existing reviewed edition: ask about present event dates and supported venue.
