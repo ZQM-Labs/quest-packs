@@ -14,6 +14,12 @@
 
 A versioned **quest-pack catalog for ZQM Labs location-based scavenger-hunt games**, including playable sample content and release editions. Packs define the stops, puzzles, hints, and story variants consumed by the ZQM Labs quest player; the public sample demonstrates the format, while private paid-edition answer keys and print sets are not stored here. Use this repository to explore, validate, and version game content—not as evidence that every edition is currently bookable.
 
+## First visit: browser demo or editable public sample?
+
+- **Play without venue setup:** visit the [Wisp's Lost Lanterns browser demo](https://zqmlabs.com/games/hunt-for-wisps/play/?demo=1) after confirming the current deployment. It is a **separate built-in demo**, not the JSON sample below.
+- **Learn the six-stop pack format:** follow the [free Wisp's Warm-Up sample guide](sample-quest/README.md) to inspect and validate its public JSON.
+- **Host your own authorized route:** start with the [first quest tutorial](https://github.com/ZQM-Labs/quest-authoring/blob/main/guide/write-your-first-quest.md), then venue permissions, player compatibility and playtests. A sample URL or JSON file does not create a ready-made host event.
+
 ## Repository role and status
 
 **Status:** Active, public. Edition catalog and distribution point for ZQM Labs quest packs.
@@ -64,8 +70,10 @@ keys.
 | *Wisp's Lost Lanterns* (Halloween) | Oct 30–Nov 1, 2026 | Pilot |
 | *Sample: Wisp's Warm-Up* | Anytime | **Free** — `sample-quest/` |
 
-New here? Start with the sample quest — it plays in any
-neighborhood in about 30 minutes.
+New here? The free sample documents six puzzle stops for **local adaptation**.
+Its published coordinates and example objects are not a verified route
+in every neighborhood. For immediate play, use the separate browser demo
+subject to current deployment verification.
 
 ## Pack format
 
