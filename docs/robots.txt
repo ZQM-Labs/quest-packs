@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://packs.zqmlabs.com/sitemap.xml
