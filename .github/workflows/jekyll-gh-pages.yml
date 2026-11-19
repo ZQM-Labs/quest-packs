@@ -13,6 +13,7 @@ concurrency:
 jobs:
   build:
     runs-on: [self-hosted, Linux, X64, zqm-linux]
+    timeout-minutes: 30
     permissions:
       contents: read
     steps:
@@ -41,6 +42,7 @@ jobs:
     if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
     environment: github-pages
     runs-on: [self-hosted, Linux, X64, zqm-linux]
+    timeout-minutes: 30
     needs: build
     permissions:
       pages: write
